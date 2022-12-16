@@ -37,7 +37,7 @@ function LoginPage() {
   }
 
   return (
-    <div className="col-lg-8 offset-lg-2">
+    <div className="col-md-8 offset-lg-2">
       <h2>Sign In</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <p style={{ fontWeight: "bold" }}>New user?</p>

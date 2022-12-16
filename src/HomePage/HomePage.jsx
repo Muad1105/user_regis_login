@@ -61,7 +61,7 @@ function HomePage() {
   });
 
   return (
-    <div className="col-lg-8 offset-lg-2">
+    <div className="col-lg-6 col-md-8 col-sm-12" style={{ background: "#fff" }}>
       <Table columns={columns} dataSource={data} />
       <p>
         <Button style={{ width: "100%", background: "#007BFF" }}>

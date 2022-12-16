@@ -21,7 +21,10 @@ function App() {
   }, []);
 
   return (
-    <div className="jumbotron">
+    <div
+      className="col-lg-6 col-md-8 col-sm-12 offset-lg-1"
+      stule={{ background: "#fff" }}
+    >
       <div className="container">
         <div className="col-md-8 offset-md-2">
           {alert.message && (
